@@ -113,8 +113,8 @@ El valor de `umbral_rel` se eligió por PQ en 20 imágenes de entrenamiento. El 
 ## Cómo reproducir
 
 ```bash
-git clone <url-del-repositorio>
-cd <carpeta-del-repositorio>
+git clone https://github.com/pierofreundt/solar-filament-segmentation.git
+cd solar-filament-segmentation
 pip install -r requirements.txt
 ```
 
