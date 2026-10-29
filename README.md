@@ -86,20 +86,29 @@ El valor de `umbral_rel` se eligió por PQ en 20 imágenes de entrenamiento. El 
 ```
 .
 ├── README.md
-├── requirements.txt                  librerías y versiones
-├── datos/                            MAGFiLO 1.0 (Kaggle 2026)
+├── requirements.txt                       librerías y versiones
+├── datos/                                 MAGFiLO 1.0 (Kaggle 2026)
+│   ├── README.md                          fuente, licencia y contenido
 │   └── MAGFiLO_1.0_Kaggle_2026/
 ├── notebooks/
-│   └── 01_baseline_clasico.ipynb     pipeline completo, con salidas guardadas
+│   └── 01_baseline_clasico.ipynb          pipeline completo, con salidas guardadas
 ├── resultados/
-│   ├── ajuste_umbral.png             barrido de umbral_rel
-│   ├── distribucion_metricas.png     Dice, IoU y PQ por imagen
-│   ├── mejor_y_peor.png              ejemplos de validación
-│   ├── metricas_validacion.csv       métricas de cada imagen de validación
-│   └── submission.csv                predicción sobre el test, formato Kaggle
-└── perfil/
-    └── Perfil_Proyecto_Filamentos_Solares.pdf
+│   ├── ajuste_umbral.png                  barrido de umbral_rel
+│   ├── distribucion_metricas.png          Dice, IoU y PQ por imagen
+│   ├── mejor_y_peor.png                   ejemplos de validación
+│   ├── metricas_validacion.csv            métricas de cada imagen de validación
+│   └── submission.csv                     predicción sobre el test, formato Kaggle
+└── entregas/
+    └── etapa_1_perfil/
+        └── Perfil_Proyecto_Filamentos_Solares.pdf
 ```
+
+| Carpeta | Contenido |
+|---|---|
+| `datos/` | Conjunto de datos original, sin modificaciones |
+| `notebooks/` | Código del proyecto, numerado en orden de ejecución |
+| `resultados/` | Salidas generadas por los notebooks |
+| `entregas/` | Documentos entregados al curso, una subcarpeta por etapa |
 
 ## Cómo reproducir
 
@@ -115,7 +124,7 @@ Luego, ejecutar `notebooks/01_baseline_clasico.ipynb` de principio a fin. Los da
 
 | Etapa | Contenido | Estado |
 |---|---|---|
-| 1. Perfil de Proyecto | Definición del problema, datos, baseline clásico y primeras métricas | Completada |
+| 1. Perfil de Proyecto | Definición del problema, datos, baseline clásico y primeras métricas ([PDF](entregas/etapa_1_perfil/Perfil_Proyecto_Filamentos_Solares.pdf)) | Completada |
 | 2. Modelo de aprendizaje profundo | U-Net entrenada con las máscaras de MAGFiLO | Pendiente |
 | 3. Post-proceso de instancias | Unión de fragmentos y filtrado por forma para mejorar el PQ | Pendiente |
 

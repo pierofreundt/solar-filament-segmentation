@@ -1,9 +1,5 @@
-# Material de estudio y borradores internos (no son parte de la entrega)
-notebooks/estudio_*.ipynb
-LEEME.md
-perfil/PERFIL_PROYECTO.md
-perfil/perfil_para_pdf.html
-perfil/figura_mejor_peor.png
+# Material interno del grupo: notebook de estudio, guía interna y fuentes del PDF
+_interno/
 
 # Python y Jupyter
 __pycache__/
