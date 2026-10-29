@@ -1,0 +1,6 @@
+numpy==2.5.4
+opencv-python-headless==4.14.0.94
+matplotlib==3.11.2
+pycocotools==2.0.11
+scipy==1.18.1
+ipykernel==7.4.0
